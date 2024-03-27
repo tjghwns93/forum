@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nanum+Myeongjo&family=Noto+Sans+KR:wght@100..900&family=Rock+3D&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  word-break: keep-all;
+  background: radial-gradient(88.93% 1072.21% at 11.07% 0%, #ddd4d9 0%, #bfc9db 100%);
+}
+
+.container {
+  width: 86%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+input {
+  box-sizing: border-box;
+  padding: 10px;
+  display: block;
+  margin: 10px 0 10px;
+}
+
+button {
+  padding: 10px 15px;
+  background: lightgray;
+  border: none;
+  border-radius: 5px;
+}
+
+.home_banner {
+  padding-top: 150px;
+  text-align: center;
+}
+
+.home_banner p {
+  margin-bottom: 50px;
+}
+
+.home_banner a {
+  padding: 10px;
+  background-color: rgb(197, 102, 232);
+  color: #fff;
+  border-radius: 5px;
+}
+
+.list-bg {
+  padding: 10px;
+}
+.list-bg .container {
+  width: 60%;
+}
+.list-bg .container .list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(234, 234, 234);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 5px;
+  box-shadow: rgb(224, 224, 224) 0px 2px 4px 0px;
+  opacity: 1;
+  transition: opacity 1s;
+}
+.list-bg .container .list-item:first-child {
+  text-align: center;
+}
+.list-bg .container .list-item:first-child .list-item-title {
+  display: block;
+}
+.list-bg .container .list-item .list-item-num {
+  width: 5%;
+  text-align: center;
+}
+.list-bg .container .list-item .list-item-title {
+  display: flex;
+  width: 50%;
+}
+.list-bg .container .list-item .list-item-title p {
+  color: #f94b4b;
+}
+.list-bg .container .list-item .list-item-name {
+  width: 10%;
+}
+.list-bg .container .list-item .list-item-time {
+  width: 10%;
+  text-align: center;
+}
+.list-bg .container .list-item .list-item-edit {
+  width: 3%;
+  text-align: center;
+}
+.list-bg .container .list-item .list-item-delete {
+  width: 3%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.p-20 {
+  padding: 20px;
+}
+
+.p-20 textarea {
+  width: 30%;
+  height: 405px;
+  padding: 10px;
+  display: block;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.p-50 {
+  text-align: center;
+  padding: 100px 0;
+}
+
+.register_wrap {
+  padding: 10px;
+}
+
+.detail-wrap input {
+  margin-left: 10px;
+}
+.detail-wrap button {
+  margin-left: 10px;
+}
+.detail-wrap .container {
+  background-color: #fff;
+  padding-bottom: 100px;
+}
+.detail-wrap .container .detail_header {
+  background-color: rgb(234, 234, 234);
+  padding: 14px 10px 16px;
+  border-bottom: 1px solid #ccc;
+}
+.detail-wrap .container .detail_header .container {
+  background-color: rgb(234, 234, 234);
+  padding: 0;
+}
+.detail-wrap .container .detail_content {
+  padding: 55px 55px 120px;
+}
+
+.detail_header .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.detail_header_name {
+  font-size: 17px;
+}
+
+.detail_header_list {
+  color: rgb(131, 131, 131);
+}
+
+.detail_content h4 {
+  height: 200px;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 33px;
+  color: brown;
+}
+
+.comment_wrap {
+  padding: 15px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.comment_title {
+  margin-bottom: 10px;
+}
+
+.comment_title span:first-child {
+  font-weight: bold;
+}
+
+.comment_title span:nth-child(2) {
+  margin-left: 5px;
+  color: #848484;
+  font-size: 14px;
+  letter-spacing: 0;
+}
+
+.navbar {
+  background: #15d1a9;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-top: 2px solid #051d1b;
+}
+
+.navbar a {
+  margin-right: 10px;
+  color: #051d1b;
+}
+
+.navbar button {
+  padding: 10px 15px;
+  background: rgb(22, 84, 255);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+.loginBar {
+  display: inline-block;
+}
+
+.dark-mode .navbar {
+  background: #051d1b;
+  border-top: 2px solid #15d1a9;
+  color: #fff;
+}
+
+.dark-mode .navbar a {
+  color: #fff;
+}/*# sourceMappingURL=globals.css.map */
